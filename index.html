@@ -1,36 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Document</title>
+	<title>Mandela Hot Dog</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar">
-            <img class="navbar-logo" src="./imgs/logo-semimg-amarela.png" alt="Logo">
-            <ul>
-                <li><a href="#">CONTATO</a></li>
-                <li><a href="#">EDIÇÃO LIMITADA</a></li>
-                <li><a href="#">CARDÁPIO</a></li>
-                <li><a href="#">NOSSA HISTÓRIA</a></li>    
-            </ul>
-        </nav>
+	<header>
+		<div class="logo">
+			<img src="imagens/logo.png" alt="Mandela - O Seu Hot Dog">
+		</div>
+		<nav class="navbar">
+			<ul>
+				<li class="options"><a href="#nossa-historia">Nossa História</a></li>
+				<li class="options"><a href="#cardapio">Cardápio</a></li>
+				<li class="options"><a href="#edicao-limitada">Edição Limitada</a></li>
+				<li class="options"><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+	</header> 
 
-        <div class="initial-img">
-            
-        </div>
+	<div class="bodymain">
+		<img src="imagens/bodymain.png" id="bodymain">
+	</div>
 
-        <div class="content">
-            asd
-        </div>
+	<div class="divmain">
+		<div class="sections">
+			<section id="nossa-historia">
+				<h2 id="historia">Nossa História</h2>
+				<p>A história do Mandela - O Seu Hot Dog começou em 2010... </p>
+			</section>
+ 
+			<section class="black">
+			</section>
 
-    </div>
-    
+			<section id="img">
+				<img src="imagens/casal.png">
+			</section>
+		</div>
+		<section id="cardapio">
+			<h2>Cardápio</h2>
+			<p>Confira nossas opções de hot dogs gourmet:</p>
+			<ul>
+				<li>Hot Dog Clássico</li>
+				<li>Hot Dog Picante</li>
+				<li>Hot Dog Vegetariano</li>
+			</ul>
+		</section>
+		
+		<section id="edicao-limitada">
+			<h2>Edição Limitada</h2>
+			<p>Nossa edição limitada é um hot dog especial que só fica disponível por um tempo limitado...</p>
+		</section>
+	
+		<section id="contato">
+			<h2>Contato</h2>
+			<p>Entre em contato conosco para fazer pedidos, sugestões ou reclamações:</p>
+			<form>
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="nome"><br>
+				
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email"><br>
+				
+				<label for="mensagem">Mensagem:</label>
+				<textarea id="mensagem" name="mensagem"></textarea><br>
+				
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+	</div>
+	<footer>
+		  <div class="footer-contato">
+		    <h3>CONTATO</h3>
+		  </div>
+		  <div class="footer-coluna">
+		    <img src="imagens/mapa.jpg" alt="Acesse o mapa">
+		    <a href="#">Acesse o mapa</a>
+		  </div>
+		  <div class="footer-coluna">
+		    <img src="imagens/link.jpg" alt="Link para pedidos">
+		    <a href="#">Link para pedidos</a>
+		  </div>
+		  <div class="footer-coluna">
+		    <img src="imagens/localizacao.jpg" alt="Localização">
+		    <a href="#">Localização</a>
+		  </div>
+		  <div class="footer-coluna">
+		    <img src="imagens/insta.jpg" alt="Instagram">
+		    <a href="#">Instagram</a>
+		  </div>
+		  <div class="footer-coluna">
+		    <img src="imagens/face.jpg" alt="Facebook">
+		    <a href="#">Facebook</a>
+		  </div>
+		  <div class="footer-coluna">
+		    <img src="imagens/wpp.png" alt="WhatsApp" >
+		    <a href="#">WhatsApp</a>
+		  </div>
+	</footer>
 </body>
 </html>
