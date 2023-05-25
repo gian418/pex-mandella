@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+	<meta charset="utf-8">
 	<title>Mandela Hot Dog</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
-		<div class="logo">
+		<div class="logo"> 
 			<img src="imagens/logo.png" alt="Mandela - O Seu Hot Dog">
 		</div>
-		<nav class="navbar">
+		<nav class="navbar"> <!-- conteudo da navbar -->
 			<ul>
 				<li class="options"><a href="#nossa-historia">Nossa História</a></li>
 				<li class="options"><a href="#cardapio">Cardápio</a></li>
@@ -18,60 +20,153 @@
 			</ul>
 		</nav>
 	</header> 
-
-	<div class="bodymain">
-		<img src="imagens/bodymain.png" id="bodymain">
-	</div>
-
-	<div class="divmain">
-		<div class="sections">
-			<section id="nossa-historia">
-				<h2 id="historia">Nossa História</h2>
-				<p>A história do Mandela - O Seu Hot Dog começou em 2010... </p>
-			</section>
  
-			<section class="black">
-			</section>
-
-			<section id="img">
-				<img src="imagens/casal.png">
-			</section>
-		</div>
-		<section id="cardapio">
-			<h2>Cardápio</h2>
-			<p>Confira nossas opções de hot dogs gourmet:</p>
-			<ul>
-				<li>Hot Dog Clássico</li>
-				<li>Hot Dog Picante</li>
-				<li>Hot Dog Vegetariano</li>
-			</ul>
-		</section>
-		
-		<section id="edicao-limitada">
-			<h2>Edição Limitada</h2>
-			<p>Nossa edição limitada é um hot dog especial que só fica disponível por um tempo limitado...</p>
-		</section>
-	
-		<section id="contato">
-			<h2>Contato</h2>
-			<p>Entre em contato conosco para fazer pedidos, sugestões ou reclamações:</p>
-			<form>
-				<label for="nome">Nome:</label>
-				<input type="text" id="nome" name="nome"><br>
-				
-				<label for="email">E-mail:</label>
-				<input type="email" id="email" name="email"><br>
-				
-				<label for="mensagem">Mensagem:</label>
-				<textarea id="mensagem" name="mensagem"></textarea><br>
-				
-				<input type="submit" value="Enviar">
-			</form>
-		</section>
+	<div class="bodymain">
+		<img src="imagens/bodymain.jpg" id="bodymain"> <!-- imagem principal do site -->
 	</div>
-	<footer>
+
+	<div class="divmain"> <!-- Div principal do site -->
+	<div class="">
+			<section id="nossa-historia"> 
+				<img src="imagens/casal.jpg" id="casal"> <!-- imagem do casal -->
+				<h2 class="black"> <!-- fundo preto --></h2>
+				<h2 id="title2">NOSSA HISTÓRIA</h2> <!-- Conheça nossa historia -->
+			</section>	
+	</div>
+
+		<section id="cardapio">  <!-- Lanches abaixo -->
+			<h2 class="title">CARDÁPIO</h2>
+			<br>
+		<div class="space"></div>
+		<div class="teste">
+			<h3 id="hotpork">HOT PORK</h3>
+			<img src="imagens/hotpork.jpg" class="imgdireita" >
+			<p id="hotporktext"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+		</div>
+		<div class="space"></div>
+			<br>
+		<div class="teste">
+			<h3 id="wursttext"=>MANDELLA WURST</h3>
+			<img src="imagens/wurst.jpg"  class="imgesquerda" >
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="space"></div>
+			<br>
+		<div class="teste">
+			<h3 id="">MANDELLA ESPECIAL </h3>
+			<img src="imagens/wurst.jpg"  class="imgdireita" >
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="space"></div>
+			<br>
+		<div class="teste">
+			<h3 id="">MANDELLA AMERICAN </h3>
+			<img src="imagens/american.jpg"  class="imgesquerda" >
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="space"></div>
+			<br>
+		<div class="teste">
+			<h3 id="">MANDELLA CHICKEN </h3>
+			<img src="imagens/chicken.jpg"  class="imgdireita" >
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="space"></div>
+			<br>
+		<div class="teste">
+			<h3 id="">MANDELLA DOG </h3>
+			<img src="imagens/dog.jpg"  class="imgesquerda" >
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="space"></div>
+			<br>
+		<div class="teste">
+			<h3 id="">MANDELLA KIDS </h3>
+			<img src="imagens/kids.png"  class="imgdireita" >
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</section>
+		<div class="space"></div> <!-- div pra dar espaço entre duas divs -->
+
+			<section id="edicao-limitada"> 
+			<h2 class="title2">EDIÇÃO ILIMITADA</h2>
+		<div class="space"></div>
+			<br>
+		<div class="teste">
+			<h3 id="">PÃO COM BOLINHO </h3>
+			<img src="imagens/pao.jpg"  class="imgdireita" >
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="space"></div>
+			<br>
+		<div class="teste">
+			<h3 id="">PEDIDO ÁS CEGAS</h3>
+			<img src="imagens/cegas.jpg"  class="imgesquerda" >
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="space"></div>
+			<br>
+		<div class="teste">
+			<h3 id=""> DOG DOCE </h3>
+			<img src="imagens/doce.jpeg"  class="imgdireita" >
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+			</section>
+			<div class="space"></div>
+	</div>
+	<footer class="container"> <!-- Rodape do site -->
 		  <div class="footer-contato">
-		    <h3>CONTATO</h3>
+		    <h3 id="contato">CONTATO</h3>
 		  </div>
 		  <div class="footer-coluna">
 		    <img src="imagens/mapa.jpg" alt="Acesse o mapa">
@@ -98,6 +193,5 @@
 		    <a href="#">WhatsApp</a>
 		  </div>
 	</footer>
-	<h2>TESTE</h2>
 </body>
 </html>
