@@ -22,6 +22,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	display: flex;
+	width: 100%;
 }
 
 .footerContent {
@@ -128,7 +129,6 @@ nav a:hover {
 	width: 365px;
 	height: 464px;
 	float: left;
-	/* z-index: 1; */
 	margin-left: 110px;
 	box-shadow: -80px -80px 0px #333;
 	border-radius: 5px;
