@@ -54,6 +54,8 @@ body {
 
 .productTable p {
 	padding: 2em;
+	font-size: 18px;
+	font-style: normal;
 }
 
 .productDiv {
@@ -100,7 +102,7 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-section h2 {
+/* section h2 {
 	margin-bottom: 20px;
 	font-size: 32px;
 }
@@ -108,7 +110,7 @@ section h2 {
 section p {
 	font-size: 18px;
 	font-style: normal;
-}
+} */
 
 #bodymain {
 	width: 100%;
@@ -125,14 +127,14 @@ section p {
 
 }
 
-#casal {
-	width: 270px;
-	height: 420px;
+.couplePhoto {
+	width: 365px;
+	height: 464px;
 	float: left;
-	z-index: 3;
+	/* z-index: 1; */
 	margin-left: 110px;
-	margin-top: 340px;
-	border-radius: 5px 5px 5px 5px;
+	box-shadow: -80px -80px 0px #333;
+	border-radius: 5px;
 }
 
 
@@ -147,19 +149,24 @@ section p {
 
 }
 
-#title2 {
-	width: 80%;
+
+.titleOurStory {
+	width: 75%;
 	height: 30%;
 	background-color: #FFCC29;
-	margin: 20px;
-	border-radius: 13px 13px 13px 13px;
+	border-radius: 5px;
 	text-align: center;
-	padding: 3%;
-	z-index: 2;
+	padding: 1em;
 	justify-content: center;
-	align-items: center;
 	display: flex;
+	color: #4D4D4D;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 52px;
 }
+
 
 .titleCardapio {
 	width: 75%;
