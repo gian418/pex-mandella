@@ -162,32 +162,40 @@ section p {
 }
 
 .titleCardapio {
-	width: 80%;
+	width: 75%;
 	height: 30%;
 	background-color: #FFCC29;
 	margin-top: 3em;
 	border-radius: 5px;
 	text-align: center;
 	padding: 1em;
-	/* z-index: 2; */
 	justify-content: center;
-	/* align-items: center; */
 	display: flex;
 	float: right;
+	color: #4D4D4D;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 52px;
 }
 
 .titleEdicaoLimitada {
-	width: 80%;
+	width: 75%;
 	height: 30%;
 	background-color: #FFCC29;
 	margin-top: 3em;
 	border-radius: 5px;
 	text-align: center;
 	padding: 1em;
-	/* z-index: 2; */
 	justify-content: center;
-	/* align-items: center; */
 	display: flex;
+	color: #4D4D4D;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 52px;
 }
 
 .productImage {
