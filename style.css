@@ -126,7 +126,7 @@ nav a:hover {
 }
 
 .couplePhoto {
-	width: 365px;
+	width: 375px;
 	height: 464px;
 	float: left;
 	margin-left: 110px;
@@ -216,4 +216,9 @@ nav a:hover {
 .space {
 	display: inline-block;
 	padding: 10%;
+}
+
+.ContactsImg{
+	width: 30px;
+	height: 30px;
 }
