@@ -130,10 +130,24 @@ nav a:hover {
 	height: 464px;
 	float: left;
 	margin-left: 110px;
+	margin-right: 4em;
+	margin-bottom: 2em;
 	box-shadow: -80px -80px 0px #333;
 	border-radius: 5px;
 }
 
+.historyMandella{
+	margin-top: 3em;
+	margin-left: 3em;
+	margin-right: 3em;
+	text-align: justify;
+}
+
+.historyMandella p{
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+}
 
 .black {
 	width: 270px;
