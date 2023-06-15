@@ -1,3 +1,87 @@
+@media (max-width: 768px) {
+	.productTable p {
+		padding: 1em;
+		font-size: 26px;
+		font-style: normal;
+		font-weight: 400;
+	}
+
+	.divmain {
+		width: 768;
+		height: 100%;
+		background-color: #dcdcde;
+		margin: 0 auto;
+	}
+
+	.couplePhoto {
+		width: 187px;
+		height: 232px;
+		float: left;
+		margin-left: 2em;
+		margin-right: 1em;
+		margin-bottom: 1em;
+		box-shadow: -10px -10px 0px #333;
+		border-radius: 5px;
+	}
+
+	.historyMandella{
+		margin-top: 1em;
+		margin-left: 2em;
+		margin-right: 2em;
+		text-align: justify;
+	}
+	
+	.historyMandella p{
+		font-size: 26px;
+		font-style: normal;
+		font-weight: 400;
+	}
+}
+
+/* --------------------- */
+
+@media (min-width: 769px) {
+	.productTable p {
+		padding: 2em;
+		font-size: 22px;
+		font-style: normal;
+		font-weight: 500;
+	}
+
+	.divmain {
+		width: 1200px;
+		height: 100%;
+		background-color: #dcdcde;
+		margin: 0 auto;
+	
+	}
+
+	.couplePhoto {
+		width: 375px;
+		height: 464px;
+		float: left;
+		margin-left: 110px;
+		margin-right: 4em;
+		margin-bottom: 10em;
+		box-shadow: -80px -80px 0px #333;
+		border-radius: 5px;
+	}
+
+	.historyMandella{
+		margin-top: 3em;
+		margin-left: 3em;
+		margin-right: 3em;
+		text-align: justify;
+	}
+	
+	.historyMandella p{
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 500;
+	}
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -53,12 +137,7 @@ body {
 	text-align: justify;
 }
 
-.productTable p {
-	padding: 2em;
-	font-size: 22px;
-	font-style: normal;
-	font-weight: 500;
-}
+
 
 .productTable h3 {
 	text-align: center;
@@ -115,38 +194,6 @@ nav a:hover {
 	height: 100%;
 	box-shadow: 3px 3px 3px black;
 
-}
-
-.divmain {
-	width: 1200px;
-	height: 100%;
-	background-color: #dcdcde;
-	margin: 0 auto;
-
-}
-
-.couplePhoto {
-	width: 375px;
-	height: 464px;
-	float: left;
-	margin-left: 110px;
-	margin-right: 4em;
-	margin-bottom: 10em;
-	box-shadow: -80px -80px 0px #333;
-	border-radius: 5px;
-}
-
-.historyMandella{
-	margin-top: 3em;
-	margin-left: 3em;
-	margin-right: 3em;
-	text-align: justify;
-}
-
-.historyMandella p{
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 500;
 }
 
 .black {
