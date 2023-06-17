@@ -31,10 +31,53 @@
 		text-align: justify;
 	}
 	
-	.historyMandella p{
+	.historyMandella p {
 		font-size: 26px;
 		font-style: normal;
 		font-weight: 400;
+	}
+
+	.productTable {
+		display: none;
+	}
+
+	.productTableMobile {
+		padding-left: 0em;
+		text-align: justify;
+	}
+	
+	.productTableMobile h3 {
+		text-align: center;
+		font-weight: bold;
+		margin-top: 30px;
+	}
+
+	.productTableMobile p {
+		font-size: 26px;
+		font-style: normal;
+		font-weight: 400;
+		padding-right: 1em;
+		padding-left: 1em;
+	}
+
+	.productImageMobile {
+		padding: 0em;
+	}
+	
+	.productImageMobile img {
+		border-radius: 10px;
+		border: 2px solid white;
+		width: 150px;
+		height: 150px;
+	}
+
+	.productDivMobile {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	.colLeft {
+		width: 25%;
 	}
 }
 
@@ -79,8 +122,41 @@
 		font-style: normal;
 		font-weight: 500;
 	}
+
+	.productTableMobile {
+		display: none;
+	}
+
+	.productTable {
+		padding-left: 0em;
+		text-align: justify;
+	}
+	
+	.productTable h3 {
+		text-align: center;
+		font-weight: bold;
+		margin-top: 30px;
+	}
+
+	.productImage {
+		padding: 0em;
+	}
+	
+	.productImage img {
+		border-radius: 10px;
+		border: 3px solid white;
+		width: 225px;
+		height: 225px;
+	}
+
+	.productDiv {
+		padding-left: 3em;
+		padding-right: 3em;
+	}
+
 }
 
+/* --- */
 
 * {
 	margin: 0;
@@ -132,24 +208,6 @@ body {
 	cursor: auto;
 }
 
-.productTable {
-	padding-left: 0em;
-	text-align: justify;
-}
-
-
-
-.productTable h3 {
-	text-align: center;
-	font-weight: bold;
-	margin-top: 30px;
-}
-
-.productDiv {
-	padding-left: 3em;
-	padding-right: 3em;
-}
-
 header {
 	display: flex;
 	justify-content: space-between;
@@ -164,19 +222,19 @@ header {
 	height: 50px;
 }
 
-nav ul {
+.navbar ul {
 	list-style: none;
 	display: flex;
 	margin-top: 2em;
     padding-right: 2em;
 }
 
-nav li {
+.navbar li {
 	margin: 0 10px;
 	padding-right: 1em;
 }
 
-nav a {
+.navbar a {
 	color: #FFCC29;
 	text-decoration: none;
 	font-style: normal;
@@ -185,7 +243,7 @@ nav a {
     line-height: 26px;
 }
 
-nav a:hover {
+.navbar a:hover {
 	text-decoration: underline;
 }
 
@@ -261,17 +319,6 @@ nav a:hover {
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 52px;
-}
-
-.productImage {
-	padding: 0em;
-}
-
-.productImage img {
-	border-radius: 10px;
-	border: 3px solid white;
-	width: 225px;
-	height: 225px;
 }
 
 .space {
