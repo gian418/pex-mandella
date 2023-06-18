@@ -23,6 +23,20 @@
 				<li class="options"><a href="#contato">Contato</a></li>
 			</ul>
 		</nav>
+		<nav class="mobile-nav">
+			<button class="dropdown-toggle">
+				<img src="imagens/barra-de-menu.png" alt="Menu">
+			</button>
+			<ul class="dropdown-menu">
+				<li class="options"><a href="#ourStory">Nossa História</a></li>
+				<li class="options"><a href="#cardapio">Cardápio</a></li>
+				<li class="options"><a href="#edicao-limitada">Edição Limitada</a></li>
+				<li class="options"><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+		<div class="mobile-logo">
+			<img src="imagens/logo.png" alt="Mandela - O Seu Hot Dog">
+		</div>
 	</header>
 
 	<div class="bodymain">
@@ -405,5 +419,15 @@
 		</table>
 	</footer>
 </body>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+  var dropdownToggle = document.querySelector(".mobile-nav .dropdown-toggle");
+
+  dropdownToggle.addEventListener("click", function() {
+    this.classList.toggle("active");
+  });
+});
+</script>
 
 </html>
