@@ -11,6 +11,7 @@
 		height: 100%;
 		background-color: #dcdcde;
 		margin: 0 auto;
+		
 	}
 
 	.couplePhoto {
@@ -32,9 +33,9 @@
 	}
 	
 	.historyMandella p {
-		font-size: 26px;
+		font-size: 20px;
 		font-style: normal;
-		font-weight: 400;
+		font-weight: 500;
 	}
 
 	.productTable {
@@ -53,11 +54,12 @@
 	}
 
 	.productTableMobile p {
-		font-size: 26px;
+		font-size: 20px;
 		font-style: normal;
-		font-weight: 400;
+		font-weight: 500;
 		padding-right: 1em;
 		padding-left: 1em;
+		margin: 10px;
 	}
 
 	.productImageMobile {
@@ -91,11 +93,19 @@
 	.mobile-nav img {
 		display: inline-block;
 		cursor: pointer;
+		width: 50px;
+		height: 50px;
 	}
 
 	.dropdown-toggle {
 		background: #333;
 		border: #333;
+		
+	}
+
+	#logomobile {
+		width: 25px;
+		height: 25px;
 	}
 
 	.mobile-nav .dropdown-toggle {
@@ -116,10 +126,28 @@
 	}
 
 	.mobile-nav a {
-		font-size: 35px;
+		font-size: 20px;
 		font-style: normal;
 		font-weight: 500;
 		margin-bottom: 1em;
+		
+	}
+	.options {
+		padding: 10px;
+	}
+
+	@keyframes typing {
+		from {
+			width: 0;
+		}
+		to {
+			width: 100%;
+		}
+	}
+
+	.typing-effect {
+		overflow: hidden; 
+		animation: typing 10s ; 
 	}
 }
 
@@ -159,7 +187,7 @@
 		text-align: justify;
 	}
 	
-	.historyMandella p{
+	.historyMandella p {
 		font-size: 20px;
 		font-style: normal;
 		font-weight: 500;
@@ -382,4 +410,22 @@ header {
 .ContactsImg{
 	width: 30px;
 	height: 30px;
+}
+
+.sublinhado:hover {
+	text-decoration: underline;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 50%;
+	}
+}
+
+.typing-effect {
+	overflow: hidden; 
+	animation: typing 3s ; 
 }
